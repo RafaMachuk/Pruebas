@@ -1,5 +1,5 @@
 import json
-def switch_reporte(idReporte):
+def prueba(idReporte):
     
     if idReporte == 1:
         return json.dumps({'Script': 'FBD_TipoCambio','Schema': 'Schema'})
