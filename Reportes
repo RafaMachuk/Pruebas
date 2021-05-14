@@ -1,6 +1,6 @@
 import json
-def prueba(idReporte):
-    
+def prueba():
+    idReporte = 7 
     if idReporte == 1:
         return json.dumps({'Script': 'FBD_TipoCambio','Schema': 'Schema'})
     elif idReporte == 2:
